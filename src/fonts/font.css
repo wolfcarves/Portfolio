@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;1,400;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Days+One&family=Playfair+Display:ital,wght@0,400;0,500;1,400;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,200;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+body {
+    font-family: 'Bruno Ace SC', cursive;
+}
+
+.playfair-ff {
+    font-family: 'Playfair Display', serif;
+}
+
+.daysone-ff {
+    font-family: 'Days One', sans-serif;
+}
+
+.inter-ff {
+    font-family: 'Inter Tight', sans-serif;
+}
+
+.roboto-ff {
+    font-family: 'Roboto', sans-serif;
+}
+
+.bg-lighter-lime {
+    background-color: #06fa47;
+}
+
+.bg-dark {
+    background-color: #0a0a0a;
+}
