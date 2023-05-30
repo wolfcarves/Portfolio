@@ -16,16 +16,16 @@ const Footer = () => {
 
             <ul className='text-white sm:ms-auto ms-0 my-auto'>
                 <li className='py-1'>
-                    <Link className='hover:opacity-80'>Facebook</Link>
+                    <Link to='https://www.messenger.com/t/100036289026538' className='hover:opacity-80'>Facebook</Link>
                 </li>
                 <li className='py-1'>
-                    <Link className='hover:opacity-80'>Twitter</Link>
+                    <Link to='' className='hover:opacity-80'>Twitter</Link>
                 </li>
                 <li className='py-1'>
-                    <Link className='hover:opacity-80'>Linkedin</Link>
+                    <Link to='https://www.linkedin.com/in/crisosto-rodel-m-undefined-704ba9277/' className='hover:opacity-80'>Linkedin</Link>
                 </li>
                 <li className='py-1'>
-                    <Link className='hover:opacity-80'>Github</Link>
+                    <Link to='https://github.com/wolfcarves' className='hover:opacity-80'>Github</Link>
                 </li>
             </ul>
         </>

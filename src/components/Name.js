@@ -1,11 +1,10 @@
-import { MdOutlineKeyboardDoubleArrowRight } from 'react-icons/md'
+import { AiOutlineSwapRight } from 'react-icons/ai'
 import { Link } from 'react-router-dom'
-import Button from './Button'
 
-const Name = () => {
+const Name = ({ scrollToAbout }) => {
     return (
         <div className="text-white my-auto">
-            <div className="xl:text-8xl lg:text-7xl text-5xl ">
+            <div className="xl:text-8xl lg:text-7xl text-5xl">
                 <span className='text-lime-500'>RODEL</span><br />
                 <span className='text-slate-300'>CRISOSTO</span>
             </div>
@@ -14,12 +13,16 @@ const Name = () => {
             </p>
 
             <div className='flex mt-8 md:text-lg'>
-                <Link to='/project/websites'
+                <Link
                     className="flex items-center w-max inter-ff md:px-12 px-8 md:py-4 py-2 border 
-                hover:border-lime-500 hover:text-lime-500 ease-in-out duration-100">Projects</Link>
-                 
-                <Link className="flex items-center w-max inter-ff px-12 py-4 ms-3
-                hover:ms-4 ease-in-out duration-300">About me<MdOutlineKeyboardDoubleArrowRight className='my-auto text-white ms-1' /></Link>
+                hover:border-lime-500 hover:text-lime-500 ease-in-out duration-100" onClick={scrollToAbout}>
+                    More <AiOutlineSwapRight className='my-auto text-white ms-1' />
+                </Link>
+
+                {/* <Link className="flex items-center w-max inter-ff px-12 py-4 ms-3
+                hover:ms-4 ease-in-out duration-300">
+                    About me
+                </Link> */}
             </div>
         </div>
     )
