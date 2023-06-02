@@ -7,7 +7,7 @@ const Languages = () => {
     return (
         <div className='container mx-auto flex flex-col items-center h-max text-xl inter-ff'>
             <h1 className='daysone-ff'>Interests</h1>
-            <span className='mt-5 opacity-50 text-center'>Programming Languages and Frameworks That I Am Currently Engaged in the Process of Learning</span>
+            <span className='mt-5 opacity-50 text-center xl:text-xl text-lg'>Programming Languages and Frameworks That I Am Currently Engaged in the Process of Learning</span>
 
             <ul className='flex flex-wrap w-full'>
                 <li className='flex flex-col mt-12 justify-center items-center grow py-10 px-8'>

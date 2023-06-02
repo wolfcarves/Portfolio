@@ -9,12 +9,8 @@ function App() {
       <Router>
         <Routes>
           <Route path='/' exact Component={Hero} />
-        </Routes>
-        <Routes>
-          <Route path='/project/websites' exact Component={ProjectWebsites} />
-        </Routes>
-        <Routes>
-          <Route path='/project/mobiles' exact Component={ProjectMobiles} />
+          <Route path='/websites' exact Component={ProjectWebsites} />
+          <Route path='/mobiles' exact Component={ProjectMobiles} />
         </Routes>
       </Router>
     </>

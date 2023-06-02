@@ -24,7 +24,7 @@ const Header = ({ scrollToTop, scrollToAbout, showMenu }) => {
                         </button>
                     </li>
                     <li>
-                        <Link to='/project/websites' className='flex justify-center mx-3 opacity-40 py-5 w-full hover:text-lime-500 hover:opacity-100 ease-in-out duration-100'>
+                        <Link to='/websites' className='flex justify-center mx-3 opacity-40 py-5 w-full hover:text-lime-500 hover:opacity-100 ease-in-out duration-100'>
                             Projects
                         </Link>
                     </li>

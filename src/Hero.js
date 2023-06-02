@@ -15,6 +15,8 @@ import HireModal from './components/HireModal'
 
 const Hero = () => {
 
+    document.title = 'RDL | Portfolio'
+
     const [clientWidth, setClientWidth] = useState(window.innerWidth)
     const [menu, setMenu] = useState(false)
     const [modal, setModal] = useState(false)

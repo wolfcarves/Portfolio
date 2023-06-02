@@ -1,3 +1,4 @@
+import { useEffect } from 'react'
 import { Link } from 'react-router-dom'
 
 import ProjectNav from "./components/ProjectNav"
@@ -6,7 +7,11 @@ import Project from "./components/Project"
 import QuizMobile from './images/quizmobile.jpg'
 
 const ProjectMobiles = () => {
+  document.title = 'RDL | Mobiles'
 
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   return (
     <div className='container p-10 mx-auto flex sm:flex-row flex-col text-white inter-ff'>
@@ -18,8 +23,8 @@ const ProjectMobiles = () => {
         </div>
 
         <div className="flex flex-wrap sm:justify-start justify-center gap-5 overflow-auto grow">
-          <Project imgUrl={QuizMobile} title='QuizIt Mobile' 
-          description="This QuizIt Mobile is integrated with my website QuizIt however only student can only signin/signup on mobile.
+          <Project imgUrl={QuizMobile} title='QuizIt Mobile' buttonText='Soon' link='' disable={true}
+            description="This QuizIt Mobile is integrated with my website QuizIt however only student can signin/signup on mobile.
                       Connecting the two platform was successful and I've done it using http requests. Built using React native/Ionic Framework" />
         </div>
       </div>

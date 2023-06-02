@@ -22,11 +22,10 @@ const About = ({ hireModalFunc }) => {
                 </div>
 
                 <span className='text-lg mt-28 ms-auto sm:w-1/2 sm:text-start opacity-75'>
-                    Pag yung giraffe uminom ng mainit na tubig, diba dadaan yun muna sa bibig nya
-                    kasi nga iinumin nya yung mainit na tubig. Then once na dumaloy na yung mainit na
-                    tubig sa bibig nya syempre mag ta-travel pa yun sa mahabang lalamunan niya so it
-                    might take several seconds to make its way sa pinaka stomach ng giraffe. So kapag
-                    nasa tyan na ng giraffe yung mainit na tubig hindi na mainit yun. Malamig na.
+                    I am wholeheartedly committed to showcasing and refining my programming skills as I strive for continuous growth and improvement.
+                    While I acknowledge that I possess certain weaknesses, I am eager to embrace them as opportunities for learning and development.
+                    I strongly believe in the power of collaboration and am enthusiastic about working closely with diverse teams to collectively achieve
+                    remarkable results.
                 </span>
             </div>
         </>

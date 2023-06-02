@@ -19,9 +19,6 @@ const Footer = () => {
                     <Link to='https://www.messenger.com/t/100036289026538' className='hover:opacity-80'>Facebook</Link>
                 </li>
                 <li className='py-1'>
-                    <Link to='' className='hover:opacity-80'>Twitter</Link>
-                </li>
-                <li className='py-1'>
                     <Link to='https://www.linkedin.com/in/crisosto-rodel-m-undefined-704ba9277/' className='hover:opacity-80'>Linkedin</Link>
                 </li>
                 <li className='py-1'>
