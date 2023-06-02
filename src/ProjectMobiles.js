@@ -18,7 +18,7 @@ const ProjectMobiles = () => {
 
       <div className="flex flex-col sm:mt-0 mt-14 sm:px-5 w-full">
         <div className="py-4 w-full">
-          <h1 className="font-bold daysone-ff text-3xl text-center mb-5">WEBSITES</h1>
+          <h1 className="font-bold daysone-ff text-3xl text-center mb-5">MOBILES</h1>
         </div>
 
         <div className="flex flex-wrap sm:justify-start justify-center gap-5 overflow-auto grow">
