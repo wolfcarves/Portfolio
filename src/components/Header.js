@@ -1,5 +1,4 @@
 import { Link } from 'react-router-dom'
-import Sidenav from './Sidenav'
 import { TbMenu } from 'react-icons/tb'
 
 const Header = ({ scrollToTop, scrollToAbout, showMenu }) => {

@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom"
 import { AiOutlineCloseSquare } from 'react-icons/ai'
-import { BsFacebook, BsTwitter, BsLinkedin, BsGithub } from 'react-icons/bs'
+import { BsFacebook, BsLinkedin, BsGithub } from 'react-icons/bs'
 
 const Modal = ({ modalState, modalFunc}) => {
    

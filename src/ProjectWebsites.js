@@ -2,8 +2,6 @@ import { useEffect } from 'react'
 
 import ProjectNav from "./components/ProjectNav"
 import Project from "./components/Project"
-import { Link } from 'react-router-dom'
-import loading from './images/loading.svg'
 import Billing from './images/billing.png'
 import QuizWeb from './images/quizweb.png'
 import Invetory from './images/inventory.png'

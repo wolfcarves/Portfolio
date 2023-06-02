@@ -1,5 +1,4 @@
 import { useEffect } from 'react'
-import { Link } from 'react-router-dom'
 
 import ProjectNav from "./components/ProjectNav"
 import Project from "./components/Project"

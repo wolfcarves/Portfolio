@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom"
 import { AiOutlineCloseSquare } from 'react-icons/ai'
 import { AiFillFile, } from 'react-icons/ai'
 import Document from '../files/CRISOSTO_CV.docx'

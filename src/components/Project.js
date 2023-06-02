@@ -1,6 +1,4 @@
-import { BsGithub } from 'react-icons/bs'
 import { Link } from 'react-router-dom'
-
 
 const Project = ({ imgUrl, title, description, buttonText, link, disable}) => {
     return (

@@ -13,12 +13,12 @@ const About = ({ hireModalFunc }) => {
                     hover:border-lime-500 hover:text-lime-500 ease-in-out duration-100 text-lg border" onClick={hireModalFunc}>Hire me <AiOutlineSwapRight className='ms-2' /></Link>
                 </div>
 
-                <img src={DataStructure} alt="image" className='w-72 animate-spin-slow absolute sm:end-0 sm:mx-0 mx-auto sm:start-auto start-0 end-0 opacity-50' />
+                <img src={DataStructure} alt="atom" className='w-72 animate-spin-slow absolute sm:end-0 sm:mx-0 mx-auto sm:start-auto start-0 end-0 opacity-50' />
             </div>
 
             <div className='container mx-auto flex w-full h-max text-xl inter-ff'>
                 <div className='rotate-45 w-40'>
-                    <img src={DataStructure} alt="image" className='w-96 opacity-80' />
+                    <img src={DataStructure} alt="atom" className='w-96 opacity-80' />
                 </div>
 
                 <span className='text-lg mt-28 ms-auto sm:w-1/2 sm:text-start opacity-75'>
