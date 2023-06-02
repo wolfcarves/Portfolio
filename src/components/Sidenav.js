@@ -12,12 +12,6 @@ const Sidenav = () => {
                     </Link>
                 </li>
                 <li className='xl:my-14 my-7'>
-                    <Link target="_blank" to='/' className='flex opacity-40 py-5 w-full hover:opacity-100 hover:-translate-x-5  ease-in-out duration-100'>
-                        <BsTwitter className='me-2 text-3xl' />
-                        Twitter
-                    </Link>
-                </li>
-                <li className='xl:my-14 my-7'>
                     <Link target="_blank" to='https://www.linkedin.com/in/crisosto-rodel-m-undefined-704ba9277/' className='flex opacity-40 py-5 w-full hover:opacity-100 hover:-translate-x-5  ease-in-out duration-100'>
                         <BsLinkedin className='me-2 text-3xl' />
                         LinkedIn
