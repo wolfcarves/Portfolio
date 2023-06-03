@@ -48,7 +48,7 @@ const Menu = ({ menuState, showFunc, scrollToTop, scrollToAbout }) => {
                         }}>About</Link>
                     </li>
                     <li className="flex grow border mt-2 ps-2">
-                        <Link to='project/websites' className="grow py-5">Projects</Link>
+                        <Link to='/websites' className="grow py-5">Projects</Link>
                     </li>
                 </ul>
             </nav>
