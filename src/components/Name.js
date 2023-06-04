@@ -9,7 +9,7 @@ const Name = ({ scrollToAbout }) => {
                 <span className='text-slate-300'>CRISOSTO</span>
             </div>
             <p className="inter-ff mt-8 w-2/3 lg:text-xl opacity-60">
-                Hello there! my name is Rodel Crisosto, welcome to my very first personal portfolio. Feel free to explore
+                Hello there! my name is Rodel Crisosto, welcome to my personal portfolio. Feel free to explore
             </p>
 
             <div className='flex mt-8 md:text-lg'>
